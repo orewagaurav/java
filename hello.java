@@ -19,6 +19,12 @@ public class hello{
         System.out.println(str.substring(0,4));
         System.out.println(str1.contains("World"));
         System.out.println(str1.replace("World", "Gaurav"));
+        int z = 1;
+        System.out.println(z++ + --z);
+        System.out.println(Integer.toBinaryString(z));
+        char ch = 'A';
+        System.out.println("Character: " + ch);
+        System.out.println("Character to ASCII: " + (int)ch);
 
     }
 }
