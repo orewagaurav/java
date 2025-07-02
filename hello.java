@@ -10,6 +10,15 @@ public class hello{
         for(int i :arr){
             System.out.println(i);
         }
+        String str1  = "Hello World";
+        System.out.println("String is: "+str1);
+        System.out.println(str1.toUpperCase());
+        System.out.println(str.toLowerCase());
+        System.out.println(str1.charAt(0));
+        System.out.println(str1.indexOf("World"));
+        System.out.println(str.substring(0,4));
+        System.out.println(str1.contains("World"));
+        System.out.println(str1.replace("World", "Gaurav"));
 
     }
 }
