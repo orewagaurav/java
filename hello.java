@@ -1,3 +1,4 @@
+import java.util.*;
 public class hello{
     public static void main(String [] args){
         System.out.println("Hello Badmoose");
@@ -25,6 +26,17 @@ public class hello{
         char ch = 'A';
         System.out.println("Character: " + ch);
         System.out.println("Character to ASCII: " + (int)ch);
+        Scanner sc  = new Scanner(System.in);
+        System.out.println("Enter a Number: ");
+        int inputNum  = sc.nextInt();
+        System.out.println("You entered: " + inputNum);
+        System.out.println("Enter a String: ");
+        sc.nextLine(); // Consume the newline character
+        String inputStr = sc.nextLine();
+        System.out.println("You entered: " + inputStr);
+        System.out.println("Goodbye " + inputStr);
+        sc.close();
+        System.out.println("End of Program");
 
     }
 }
