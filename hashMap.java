@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 public class hashMap {
     public static void main (String[] args){
@@ -19,6 +19,10 @@ public class hashMap {
         System.out.println(bool2);
         boolean bool3 = newHashMap.containsValue("Mikasa");
         System.out.println(bool3);
+        // Set<Integer> keys = newHashMap.keySet();
+        for(int i:newHashMap.keySet()){
+            System.out.println(newHashMap.get(i));
+        }
         
     
     }
